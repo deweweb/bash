@@ -1,12 +1,10 @@
 #!/bin/bash
 
 ##file=*.sas7bdat
+file=*2018_09*
 
-file=*2017_09_04*
-
-##cd /data/products/../ablage/trt
-
-cd /data/products/../logs
+##cd /prod/../base/trt
+cd prod/../logs
 
 for f in *; do
 	if [ -e "$f" ]; then

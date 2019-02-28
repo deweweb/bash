@@ -1,7 +1,6 @@
 #!/bin/bash
 
 ##file=*.sas7bdat
-##file=*vew*
 
 file=*2017_09_04*
 
